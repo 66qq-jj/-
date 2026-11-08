@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    long long int X,Y,z; 
+    Y>=X ;
+    scanf("%lld%lld",&X,&Y);
+    if (Y%X==0)
+    {
+        z=X+Y;
+        printf("%lld",z);
+    }
+    else
+    {
+        z=Y-X;
+        printf("%lld",z);
+    }
+    return 0;
+}
